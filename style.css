@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,18 +14,23 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+.git{
+    color: #9b5b7d;
+    text-decoration: none;
 
+}
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #f4e9ed;
+    border-radius: 60px 0px 0px 60px;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
-    border-radius: 0px 60px 0px 0px;
+    background-color: #9b5b7d;
+    border-radius: 0px 60px 60px 0px;
 }
 
 .left-section-contents {
@@ -33,7 +39,7 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #9b5b7d;
 }
 
 .profile .profile-image {
@@ -42,40 +48,42 @@
 }
 
 .name {
-    color: #D6DBDF;
+    color: #9b5b7d;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .profession {
-    color: #eeeeee;
-    font-size: 20px;
+    color: #9b5b7d;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #9b5b7d;
     font-size: 20px;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    border-bottom: 2px solid #9b5b7d;
 }
 
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #9b5b7d;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #eeeeee;
+    color: #9b5b7d;
 }
 
 .skills ul {
@@ -84,7 +92,7 @@
 
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #9b5b7d;
 }
 
 .right-section-contents {
@@ -92,7 +100,9 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #f4e9ed;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .gap {
@@ -101,7 +111,7 @@
 
 .about-me-contents {
     font-size: 18px;
-    color: #eeeeee;
+    color: #f4e9ed;
 }
 
 .experience-contents,
@@ -110,26 +120,26 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #f4e9ed;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .exp-desc,
